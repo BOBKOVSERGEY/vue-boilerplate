@@ -6,6 +6,11 @@ const routes = [
         name: 'Home',
         component: () => import('@/views/HomeView.vue')
     },
+    {
+        path: '/filter-table',
+        name: 'FilterTable',
+        component: () => import('@/views/FilterTable/FilterTableView.vue')
+    },
 
 ];
 
